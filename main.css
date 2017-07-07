@@ -1,0 +1,221 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Krona One', sans-serif;
+	font-size: 22px;
+	color: #56FF3B;
+	background: url('../Images/mountain.jpg') no-repeat fixed;
+	background-size: cover; 
+}
+
+/*Container and Header for all pages*/
+.container {
+
+	max-width: 1000px;
+}
+
+.header {
+
+	border-bottom: 3px solid #61B1E8;
+	width: 85%;
+	padding-bottom: 50px;
+	position: relative;
+	left: 70px;
+}
+ 
+.header ul {
+
+	list-style: none;
+
+}
+
+
+
+.header li {
+	
+color: #56FF3B;
+
+	font-size: 10px;
+    background-color: #2C38FF;
+	display: inline;
+	padding: 20px 50px;
+	border-radius: 50px;
+	position: relative;
+	top: 50px;
+	left: 300px;
+}
+
+
+.header li:hover {
+
+	color: #2C38FF;
+	background-color: #56FF3B;
+	cursor: pointer;
+}
+
+.header a {
+
+text-decoration: none;
+
+}
+
+/* Portfolio section for homepage/index page*/
+.main {
+
+	color: #56FF3B;
+    border-bottom: 3px solid #61B1E8;
+    width: 85%;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	margin-bottom: 20px;
+	position: relative;
+	left: 70px;
+
+	
+}
+
+.main a{
+
+	text-decoration: none;
+}
+.main .caption {
+
+	width: 50px;
+	height: 100px;
+	background-color:  #2C38FF; 
+	width: 100%;
+}
+.main .row {
+
+	padding: 30px;
+}
+
+.main h3 {
+
+	color: #56FF3B;
+}
+
+.main .thumbnail {
+
+border: 3px solid #61B1E8;
+margin: -3px;
+
+}
+
+/*About Me page styling*/
+.info {
+
+	
+    border-bottom: 3px solid #61B1E8;
+    width: 85%;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	margin-bottom: 20px;
+	position: relative;
+	left: 70px;
+}
+
+.info h2 {
+
+color: #56FF3B;
+
+}
+.info p {
+
+    color: #2C38FF;
+	font-size: 20px;
+}
+
+/*footer for all pages*/
+.footer {
+
+	margin-bottom: 20px;
+	font-size: 10px;
+}
+.footer a {
+    
+    color: #56FF3B;
+	position: relative;
+	left: 50px;
+	
+}
+
+.footer p {
+
+	position: relative;
+	left: 800px;
+	top: -15px;
+}
+/*Tribute Page*/
+.cursive {
+
+
+	font-family: cursive; 
+}
+
+.fontbold {
+
+	font-weight: bold;
+}
+
+
+.tribute {
+
+	
+    color: white;
+	background-color: blue;
+	
+}
+
+.nobackground {
+
+	background: none;
+}
+.tribute img{
+
+	margin: 10px;
+	width: 75%;
+}
+ .tribute li {
+
+ 	position: left;
+
+ }
+.tribute a {
+
+	color: red;
+}
+.font {
+
+	font-size: 30px;
+}
+
+/*Styling for small screen sizes*/
+@media (max-width: 500px) {
+
+
+	.header h1 {
+
+		position: relative;
+		left: 20px;
+	}
+
+	.header li {
+
+         display: block;
+		position: relative;
+		left: -30px;
+		margin: 10px;
+	}
+
+	.main a {
+
+		width: 110%;
+	}
+
+	.main .col-md-4 {
+
+        margin-bottom: 30px;
+        
+	}
+}
